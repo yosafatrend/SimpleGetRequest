@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <ListView
-        android:id="@+id/listQuotes"
+        android:id="@+id/listJobs"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="parent"

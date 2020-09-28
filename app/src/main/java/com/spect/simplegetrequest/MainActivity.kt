@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                         listQuote.add("\n$name\n$salary\n$company - $location\n$desc")
                     }
                     val adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_list_item_1, listQuote)
-                    listQuotes.adapter = adapter
+                    listJobs.adapter = adapter
                 } catch (e: Exception) {
                     progressBar.visibility = View.INVISIBLE
                     Toast.makeText(this@MainActivity, e.message, Toast.LENGTH_SHORT).show()
